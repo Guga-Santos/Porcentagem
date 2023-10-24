@@ -129,7 +129,7 @@ Além disso:
 - Adicione um frete de R$ 25,00.
 - Ofereça frete grátis se o valor da compra for superior a R$250 (após aplicar todos os descontos).
 
-Retorn desejado (exemplo):
+Retorno desejado (exemplo):
 ```
 Valor da compra: R$ 350,00
 Valor com desconto: R$ 290,27
