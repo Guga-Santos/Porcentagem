@@ -99,9 +99,40 @@ Este método é eficaz para cálculos rápidos e pode ser especialmente útil qu
 <br>
 
 9. **Cálculo de Imposto:**
-   Solicite um valor monetário e calcule o imposto a ser pago. Se o valor for maior que R$1.000, aplique uma taxa de imposto de 15%. Caso contrário, isente o imposto.
+   Solicite ao usuário um valor e calcule o imposto a ser pago. Se o valor for maior que R$1.000, aplique uma taxa de imposto de 15%. Caso contrário, isente-o de imposto.
 <br>
 
 10.  **Custo de Entrega:**
     Peça o valor total de uma compra e calcule o custo de entrega com base na seguinte tabela: para compras até R$100, o custo de entrega é de 10% do valor total; para compras entre R$100 e R$200, o custo é de 5% do valor total; para compras acima de R$200, a entrega é gratuita. Exiba o custo de entrega.
 <br>
+
+--------------------------------------------------------------
+
+## Exercício Bônus!!
+<div align="center" >
+<img src="https://octodex.github.com/images/mona-the-rivetertocat.png" alt="" width=300 />
+</div>
+
+--------------------------------------------------------------
+
+
+**Calculadora de Descontos em Compras Dependentes:**
+
+Crie um programa que permita ao usuário realizar uma compra em uma loja virtual. O programa deve solicitar o valor total da compra e, com base nesse valor, aplicar descontos dependentes de várias condições:
+
+1. Se o valor da compra for maior ou igual a R$100, aplique um desconto de 10%.
+2. Se o valor da compra for maior ou igual a R$200, aplique um desconto adicional de 5% sobre o valor com o desconto já aplicado no passo 1.
+3. Se o valor da compra for maior ou igual a R$300, aplique um desconto extra de 3% sobre o valor com os descontos aplicados nos passos 1 e 2.
+
+Além disso:
+
+- Adicione um frete de R$ 25,00.
+- Ofereça frete grátis se o valor da compra for superior a R$250 (após aplicar todos os descontos).
+
+Retorn desejado (exemplo):
+```
+Valor da compra: R$ 350,00
+Valor com desconto: R$ 290,27
+Valor do frete: R$ 0,00
+Total a pagar: R$ 290,27 
+```
